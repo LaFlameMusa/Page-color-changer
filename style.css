@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'montserrat';
+}
+
+.body {
+    background-color: rgb(0, 0, 0);
+}
+
+.btn {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    color: white;
+    font-size: 36px;
+    cursor: pointer;
+    transition: 0.4s
+}
+.btn i {
+    color: rgb(255, 197, 197);
+}
+
+.btn:hover{
+    transform: rotate(90deg);
+}
+
+
+.box {
+    position: absolute;
+    top: -50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #f1f1f1;
+    width: 400px;  
+    transition: .5s;
+}
+.box-show {
+    top: 50%;
+}
+
+.box h2 {
+    background: #2c3e50;
+    padding: 20px;
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.box-c {
+    padding: 20px 40px;
+    overflow: hidden;
+}
+
+.txtb {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+#hex {
+    width: 100%;
+    padding: 0px 0px 0px 30px;
+    height: 40px;
+    border: 1px solid #2c3e50;
+}
+
+.prev {
+    width: 25px;
+    height: 30px;
+    
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+.apply {
+    float: right;
+    border: none;
+    background: #2c3e50;
+    text-transform: uppercase;
+    padding: 6px 30px;
+    color: white;
+    cursor: pointer;
+}
